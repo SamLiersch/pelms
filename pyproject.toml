@@ -1,0 +1,6 @@
+[project]
+name = "pelms"
+version = "0.0.1"
+
+[project.scripts]
+pelms = "pelms.cli:main"
