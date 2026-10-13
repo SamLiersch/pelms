@@ -7,8 +7,8 @@ from time import sleep
 picam2 = Picamera2()
 
 
-def adjust_focus(t: int = 0):
-    """Run the preview window for time t
+def preview(t: int = 0):
+    """Run the preview window for time t so focus of the camera can be adjusted
 
 
     Args:
